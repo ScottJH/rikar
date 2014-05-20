@@ -6270,3 +6270,45 @@ button.close {
   /* line 647, ../sass/bootstrap/_mixins.scss */
   .hidden-print {
     display: none !important; } }
+/* Sticky footer styles
+-------------------------------------------------- */
+/* line 10, ../sass/screen.scss */
+html {
+  position: relative;
+  min-height: 100%; }
+
+/* line 14, ../sass/screen.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px; }
+
+/* line 18, ../sass/screen.scss */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5; }
+
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  /* line 29, ../sass/screen.scss */
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none; }
+
+  /* line 33, ../sass/screen.scss */
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block; }
+
+  /* line 37, ../sass/screen.scss */
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block; }
+
+  /* line 41, ../sass/screen.scss */
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px; } }
