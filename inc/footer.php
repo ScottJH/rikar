@@ -3,9 +3,8 @@
 
 <div id="footer">
 	<div class="container" role="main">
-	   <p>I am the footer</p>
-	   <p>Is this working?</p> 
-   </div>
+	   <span>7559 Ne 33rd Drive | Portland OR, 97211 | Multnomah County</span>   
+  </div>
 </div>
 
     <!-- jQuqq  2  qqaw3qwq qqqq qery (necessary for Bootstrap's JavaScript plugins) -->

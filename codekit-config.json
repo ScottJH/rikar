@@ -14,6 +14,33 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/inc\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/offcanvas.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/offcanvas.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/stylesheets\/bootstrap\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/bootstrap\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/javascripts\/bootstrap\/button.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -25,26 +52,14 @@
       "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/button-ck.js",
       "fileType" : 64
     },
-    "\/offcanvas.html" : {
+    "\/about.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/offcanvas.html",
+      "inputAbbreviatedPath" : "\/about.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/sass\/bootstrap\/_media.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_media.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_media.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/sass\/bootstrap\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -422,6 +437,17 @@
       "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/tab-ck.js",
       "fileType" : 64
     },
+    "\/img\/logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/logo.png",
+      "initialSize" : 199433,
+      "fileType" : 8192
+    },
     "\/sass\/bootstrap\/_breadcrumbs.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -501,26 +527,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/javascripts\/bootstrap\/affix.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/affix.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/affix-ck.js",
-      "fileType" : 64
-    },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/sass\/bootstrap\/_code.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -532,6 +538,26 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_code.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/javascripts\/bootstrap\/affix.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/affix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/affix-ck.js",
+      "fileType" : 64
     },
     "\/img\/logo_test.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -624,14 +650,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/inc\/footer.php" : {
+    "\/img\/logo_dummy.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/footer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/logo_dummy.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/logo_dummy.png",
+      "initialSize" : 415291,
+      "fileType" : 8192
     },
     "\/sass\/bootstrap\/_alerts.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -645,6 +673,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/inc\/footer.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/footer.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/stylesheets\/screen.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -653,17 +690,6 @@
       "inputAbbreviatedPath" : "\/stylesheets\/screen.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/assets\/javascripts\/bootstrap\/modal.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/modal.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/modal-ck.js",
-      "fileType" : 64
     },
     "\/sass\/bootstrap\/_tooltip.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -676,6 +702,17 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_tooltip.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/javascripts\/bootstrap\/modal.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/modal.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/modal-ck.js",
+      "fileType" : 64
     },
     "\/assets\/javascripts\/bootstrap\/offcanvas.js" : {
       "ignoreWasSetByUser" : 0,
@@ -767,14 +804,17 @@
       "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/transition-ck.js",
       "fileType" : 64
     },
-    "\/inc\/header.php" : {
+    "\/sass\/bootstrap\/_media.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_media.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_media.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     }
   },
   "manualImportLinks" : [

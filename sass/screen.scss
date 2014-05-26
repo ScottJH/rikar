@@ -5,6 +5,10 @@
 
 @import "bootstrap";
 
+$blue: #3198d4;
+$charcoal: #454547;
+$gray: #f5f5f5;
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -21,9 +25,57 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  background-color: $gray;
+  
+  .container {
+    text-align: center;
+  }
+
 }
 
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: $blue;
+    color: white;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.container .jumbotron {
+  border-radius: 0;
+}
+
+#banner {
+  min-height: 246px;
+  position: relative;
+
+  h1.pagetitle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    font-size: 2.5em;
+    background: $charcoal;
+    color: white;
+  }
+
+}
+
+body.home #banner {
+    min-height: 346px;
+}
+
+h1, h2 {
+  font-family: $font-family-serif
+}
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
