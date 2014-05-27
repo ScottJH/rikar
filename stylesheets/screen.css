@@ -6417,25 +6417,26 @@ div.row[role=main] {
   padding-top: 15px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  padding-bottom: 15px; }
 
 /* home nav */
-/* line 140, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #home-nav {
   padding: 0; }
 
-/* line 144, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 #home-nav div {
   padding: 0; }
 
-/* line 148, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #home-nav div a {
   color: transparent;
   display: block;
   height: 250px;
   position: relative; }
 
-/* line 155, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 #home-nav div a span {
   position: absolute;
   text-align: center;
@@ -6444,64 +6445,64 @@ div.row[role=main] {
   width: 100%;
   font-size: 0.95em; }
 
-/* line 163, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 #home-nav div a:hover span {
   border-top: thick solid #3198d4;
   border-bottom: thick solid #3198d4; }
 
-/* line 168, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 div.main-link-1 {
   background: url("../img/main-link-1.jpg") no-repeat;
   border-bottom-left-radius: 20px; }
 
-/* line 169, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 div.main-link-2 {
   background: url("../img/main-link-2.jpg") no-repeat; }
 
-/* line 170, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 div.main-link-3 {
   background: url("../img/main-link-3.jpg") no-repeat; }
 
-/* line 171, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 div.main-link-4 {
   background: url("../img/main-link-4.jpg") no-repeat;
   border-bottom-right-radius: 20px; }
 
-/* line 173, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 #home-nav div a:hover {
   color: white;
   background-color: rgba(69, 69, 71, 0.75); }
 
-/* line 178, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .bg-primary {
   background-color: #3198d4; }
 
 @media (min-width: 991px) {
-  /* line 181, ../sass/screen.scss */
+  /* line 182, ../sass/screen.scss */
   body.about #banner {
     background-position: 0 -200px; } }
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
-  /* line 189, ../sass/screen.scss */
+  /* line 190, ../sass/screen.scss */
   div.row[role=main] {
     font-size: 1.25em; }
 
-  /* line 191, ../sass/screen.scss */
+  /* line 192, ../sass/screen.scss */
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none; }
 
-  /* line 195, ../sass/screen.scss */
+  /* line 196, ../sass/screen.scss */
   .sidebar-nav .navbar ul {
     float: none;
     display: block; }
 
-  /* line 199, ../sass/screen.scss */
+  /* line 200, ../sass/screen.scss */
   .sidebar-nav .navbar li {
     float: none;
     display: block; }
 
-  /* line 203, ../sass/screen.scss */
+  /* line 204, ../sass/screen.scss */
   .sidebar-nav .navbar li a {
     padding-top: 12px;
     padding-bottom: 12px; } }
