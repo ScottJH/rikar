@@ -7,7 +7,7 @@
   $description = '';
   
   include('inc/header.php'); ?>     
-    <div class="row" role="main">  
+    <div class="row container-fluid" role="main">  
      
 		// content goes here     
 

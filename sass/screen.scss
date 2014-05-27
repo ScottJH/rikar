@@ -8,6 +8,8 @@
 $blue: #3198d4;
 $charcoal: #454547;
 $gray: #f5f5f5;
+$mid-gray: #717171;
+$font-family-serif: 'Cinzel', serif;;
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -18,7 +20,14 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: $charcoal;
+  font-size: 1.5em;
 }
+
+.container-fluid {
+  max-width: 1250px;
+}
+
 #footer {
   position: absolute;
   bottom: 0;
@@ -26,6 +35,7 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: $gray;
+  border-top: thick solid $blue;
   
   .container {
     text-align: center;
@@ -35,6 +45,7 @@ body {
 
 .navbar {
   border-radius: 0;
+  @include border-bottom-radius(20px);
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -42,17 +53,14 @@ body {
     color: white;
 }
 
-.logo {
-  padding: 10px;
-}
-
 .container .jumbotron {
   border-radius: 0;
 }
 
 #banner {
-  min-height: 246px;
+  min-height: 450px;
   position: relative;
+  margin: 0 -15px 0;
 
   h1.pagetitle {
     position: absolute;
@@ -62,22 +70,124 @@ body {
     width: 100%;
     margin: 0;
     padding: 10px;
-    font-size: 2.5em;
-    background: $charcoal;
-    color: white;
+    padding-right: 50px;
+    font-size: 2em;
+    /*background: $charcoal;*/
+    background-color: $gray;
+    /*background-image:
+    linear-gradient(
+        to right, 
+        $charcoal, 
+        #fff,
+        $mid-gray,
+        #fff,
+        $gray, 
+        #fff,
+        $charcoal
+      );*/
+    text-shadow: 1px 1px 0 #fff;
+    color: #000;
+    border-top: thick solid $blue;
+    border-bottom: thick solid $blue;
+    text-transform: uppercase;
+    font-weight: 700; 
   }
 
 }
 
-body.home #banner {
-    min-height: 346px;
+.metal-gradient {
+  
+background: $gray; /* Old browsers */
+background: -moz-linear-gradient(left, #454547 0%, #ffffff 16%, #717171 33%, #ffffff 50%, #f5f5f5 68%, #ffffff 85%, #454547 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#454547), color-stop(16%,#ffffff), color-stop(33%,#717171), color-stop(50%,#ffffff), color-stop(68%,#f5f5f5), color-stop(85%,#ffffff), color-stop(100%,#454547)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #454547 0%,#ffffff 16%,#717171 33%,#ffffff 50%,#f5f5f5 68%,#ffffff 85%,#454547 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #454547 0%,#ffffff 16%,#717171 33%,#ffffff 50%,#f5f5f5 68%,#ffffff 85%,#454547 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #454547 0%,#ffffff 16%,#717171 33%,#ffffff 50%,#f5f5f5 68%,#ffffff 85%,#454547 100%); /* IE10+ */
+background: linear-gradient(to right, #454547 0%,#ffffff 16%,#717171 33%,#ffffff 50%,#f5f5f5 68%,#ffffff 85%,#454547 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454547', endColorstr='#454547',GradientType=1 ); /* IE6-9 */
+
 }
 
-h1, h2 {
-  font-family: $font-family-serif
+body.home #banner {background: url('../img/main.jpg') no-repeat;   background-size: cover;}
+body.about #banner {background: url('../img/main-link-1.jpg') no-repeat;   background-size: cover;}
+body.products #banner {background: url('../img/main-link-2.jpg') no-repeat;   background-size: cover;}
+body.location #banner {background: url('../img/main-link-3.jpg') no-repeat;   background-size: cover;}
+body.contact #banner {background: url('../img/main-link-4.jpg') no-repeat;   background-size: cover;}
+
+h1, h2, h3 {
+  font-family: $font-family-serif;
+  text-transform: uppercas;
+  font-weight: 900; 
 }
+
+a.brand {
+  margin-top: 15px;
+  display: block;
+  padding:0;
+  background-color: $blue;
+  @include border-top-radius(20px);
+}
+
+div.row[role=main] {
+  background-color: #f5f5f5;
+  padding-top: 15px;
+  @include border-bottom-radius(20px);
+  margin-bottom: 15px;
+}
+
+/* home nav */
+
+#home-nav {
+  padding: 0;
+}
+
+#home-nav div {
+  padding: 0;
+}
+
+#home-nav div a {
+  color: transparent;
+  display: block;
+  height: 250px;
+  position: relative;
+}
+
+#home-nav div a span {
+  position: absolute;
+  text-align: center;
+  bottom: 50%;
+  left: 0;
+  width: 100%;
+  font-size: 0.95em;
+}
+#home-nav div a:hover span {
+  border-top: thick solid $blue;
+  border-bottom: thick solid $blue;
+}
+
+div.main-link-1 {background: url('../img/main-link-1.jpg') no-repeat; border-bottom-left-radius: 20px;}
+div.main-link-2 {background: url('../img/main-link-2.jpg') no-repeat; }
+div.main-link-3 {background: url('../img/main-link-3.jpg') no-repeat; }
+div.main-link-4 {background: url('../img/main-link-4.jpg') no-repeat; border-bottom-right-radius: 20px;}
+
+#home-nav div a:hover {
+  color: white;
+  background-color: rgba(69, 69, 71, 0.75);
+}
+
+.bg-primary { background-color: $blue;}
+
+@media (min-width: 991px) {
+  body.about #banner {
+     background-position: 0 -200px;
+  }
+}
+
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
+  
+  div.row[role=main] {font-size: 1.25em;}
+
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none;

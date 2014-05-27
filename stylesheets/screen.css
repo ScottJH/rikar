@@ -6272,50 +6272,56 @@ button.close {
     display: none !important; } }
 /* Sticky footer styles
 -------------------------------------------------- */
-/* line 14, ../sass/screen.scss */
+/* line 16, ../sass/screen.scss */
 html {
   position: relative;
   min-height: 100%; }
 
-/* line 18, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  background-color: #454547;
+  font-size: 1.5em; }
 
-/* line 22, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
+.container-fluid {
+  max-width: 1250px; }
+
+/* line 31, ../sass/screen.scss */
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: whitesmoke; }
-  /* line 30, ../sass/screen.scss */
+  background-color: whitesmoke;
+  border-top: thick solid #3198d4; }
+  /* line 40, ../sass/screen.scss */
   #footer .container {
     text-align: center; }
 
-/* line 36, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .navbar {
-  border-radius: 0; }
+  border-radius: 0;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; }
 
-/* line 40, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .navbar-default .navbar-nav > .active > a {
   background-color: #3198d4;
   color: white; }
 
-/* line 45, ../sass/screen.scss */
-.logo {
-  padding: 10px; }
-
-/* line 49, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .container .jumbotron {
   border-radius: 0; }
 
-/* line 53, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 #banner {
-  min-height: 246px;
-  position: relative; }
-  /* line 57, ../sass/screen.scss */
+  min-height: 450px;
+  position: relative;
+  margin: 0 -15px 0; }
+  /* line 65, ../sass/screen.scss */
   #banner h1.pagetitle {
     position: absolute;
     bottom: 0;
@@ -6324,36 +6330,178 @@ body {
     width: 100%;
     margin: 0;
     padding: 10px;
-    font-size: 2.5em;
-    background: #454547;
-    color: white; }
+    padding-right: 50px;
+    font-size: 2em;
+    /*background: $charcoal;*/
+    background-color: whitesmoke;
+    /*background-image:
+    linear-gradient(
+        to right, 
+        $charcoal, 
+        #fff,
+        $mid-gray,
+        #fff,
+        $gray, 
+        #fff,
+        $charcoal
+      );*/
+    text-shadow: 1px 1px 0 #fff;
+    color: #000;
+    border-top: thick solid #3198d4;
+    border-bottom: thick solid #3198d4;
+    text-transform: uppercase;
+    font-weight: 700; }
 
-/* line 72, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
+.metal-gradient {
+  background: whitesmoke;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #454547 0%, white 16%, #717171 33%, white 50%, whitesmoke 68%, white 85%, #454547 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #454547), color-stop(16%, white), color-stop(33%, #717171), color-stop(50%, white), color-stop(68%, whitesmoke), color-stop(85%, white), color-stop(100%, #454547));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #454547 0%, white 16%, #717171 33%, white 50%, whitesmoke 68%, white 85%, #454547 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #454547 0%, white 16%, #717171 33%, white 50%, whitesmoke 68%, white 85%, #454547 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #454547 0%, white 16%, #717171 33%, white 50%, whitesmoke 68%, white 85%, #454547 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #454547 0%, #ffffff 16%, #717171 33%, #ffffff 50%, #f5f5f5 68%, #ffffff 85%, #454547 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#454547', endColorstr='#454547',GradientType=1 );
+  /* IE6-9 */ }
+
+/* line 111, ../sass/screen.scss */
 body.home #banner {
-  min-height: 346px; }
+  background: url("../img/main.jpg") no-repeat;
+  background-size: cover; }
 
-/* line 76, ../sass/screen.scss */
-h1, h2 {
-  font-family: Georgia, "Times New Roman", Times, serif; }
+/* line 112, ../sass/screen.scss */
+body.about #banner {
+  background: url("../img/main-link-1.jpg") no-repeat;
+  background-size: cover; }
 
+/* line 113, ../sass/screen.scss */
+body.products #banner {
+  background: url("../img/main-link-2.jpg") no-repeat;
+  background-size: cover; }
+
+/* line 114, ../sass/screen.scss */
+body.location #banner {
+  background: url("../img/main-link-3.jpg") no-repeat;
+  background-size: cover; }
+
+/* line 115, ../sass/screen.scss */
+body.contact #banner {
+  background: url("../img/main-link-4.jpg") no-repeat;
+  background-size: cover; }
+
+/* line 117, ../sass/screen.scss */
+h1, h2, h3 {
+  font-family: "Cinzel", serif;
+  text-transform: uppercas;
+  font-weight: 900; }
+
+/* line 123, ../sass/screen.scss */
+a.brand {
+  margin-top: 15px;
+  display: block;
+  padding: 0;
+  background-color: #3198d4;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px; }
+
+/* line 131, ../sass/screen.scss */
+div.row[role=main] {
+  background-color: #f5f5f5;
+  padding-top: 15px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 15px; }
+
+/* home nav */
+/* line 140, ../sass/screen.scss */
+#home-nav {
+  padding: 0; }
+
+/* line 144, ../sass/screen.scss */
+#home-nav div {
+  padding: 0; }
+
+/* line 148, ../sass/screen.scss */
+#home-nav div a {
+  color: transparent;
+  display: block;
+  height: 250px;
+  position: relative; }
+
+/* line 155, ../sass/screen.scss */
+#home-nav div a span {
+  position: absolute;
+  text-align: center;
+  bottom: 50%;
+  left: 0;
+  width: 100%;
+  font-size: 0.95em; }
+
+/* line 163, ../sass/screen.scss */
+#home-nav div a:hover span {
+  border-top: thick solid #3198d4;
+  border-bottom: thick solid #3198d4; }
+
+/* line 168, ../sass/screen.scss */
+div.main-link-1 {
+  background: url("../img/main-link-1.jpg") no-repeat;
+  border-bottom-left-radius: 20px; }
+
+/* line 169, ../sass/screen.scss */
+div.main-link-2 {
+  background: url("../img/main-link-2.jpg") no-repeat; }
+
+/* line 170, ../sass/screen.scss */
+div.main-link-3 {
+  background: url("../img/main-link-3.jpg") no-repeat; }
+
+/* line 171, ../sass/screen.scss */
+div.main-link-4 {
+  background: url("../img/main-link-4.jpg") no-repeat;
+  border-bottom-right-radius: 20px; }
+
+/* line 173, ../sass/screen.scss */
+#home-nav div a:hover {
+  color: white;
+  background-color: rgba(69, 69, 71, 0.75); }
+
+/* line 178, ../sass/screen.scss */
+.bg-primary {
+  background-color: #3198d4; }
+
+@media (min-width: 991px) {
+  /* line 181, ../sass/screen.scss */
+  body.about #banner {
+    background-position: 0 -200px; } }
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
-  /* line 81, ../sass/screen.scss */
+  /* line 189, ../sass/screen.scss */
+  div.row[role=main] {
+    font-size: 1.25em; }
+
+  /* line 191, ../sass/screen.scss */
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none; }
 
-  /* line 85, ../sass/screen.scss */
+  /* line 195, ../sass/screen.scss */
   .sidebar-nav .navbar ul {
     float: none;
     display: block; }
 
-  /* line 89, ../sass/screen.scss */
+  /* line 199, ../sass/screen.scss */
   .sidebar-nav .navbar li {
     float: none;
     display: block; }
 
-  /* line 93, ../sass/screen.scss */
+  /* line 203, ../sass/screen.scss */
   .sidebar-nav .navbar li a {
     padding-top: 12px;
     padding-bottom: 12px; } }

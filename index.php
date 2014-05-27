@@ -1,31 +1,35 @@
 <?php 
   
-  $pagetitle = 'Home';
+  $pagetitle = 'Rikar Enterprises, Inc.<br>Pioneer Trailer &amp; Fabrication';
   $pageclass ='home'; 
   $keywords = '';
   $meta = '';
   $description = '';
 
   include('inc/header.php'); ?>
-      <div class="row" role="main">  
+      <div class="row container-fluid" role="main" id="home-nav">  
 
-       <div class="col-xs-3">
-        <h2>Header 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ab, quod, iure possimus vel quasi nostrum placeat facere quo cupiditate totam itaque eos dicta repudiandae perspiciatis debitis cumque animi et.</p>
-       </div>
-       <div class="col-xs-3">
-        <h2>Header 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, beatae, aut, eius a recusandae esse nulla possimus qui quo ratione aspernatur perferendis. Nam sit est numquam autem voluptatibus doloremque quam?</p>
-       </div>
-       <div class="col-xs-3">
-        <h2>Header 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, enim, similique voluptas officiis quis iusto maxime quibusdam error magni odio at voluptates delectus asperiores corporis sint quas omnis id libero!</p>
-       </div>
-       <div class="col-xs-3">
-        <h2>Header 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, illum, eligendi maxime rem facilis deserunt quo eius perspiciatis beatae sint omnis voluptates eum nesciunt laudantium ullam! Cumque odit totam quia!</p>
-       </div>
-      
+    <div class="col-xs-3 main-link-1">
+      <a href="about.php">
+        <span>About Us</span>
+      </a> 
+    </div>
+    <div class="col-xs-3 main-link-2">
+      <a href="products.php">
+        <span>Products and Services</span>     
+      </a>
+    </div>
+    <div class="col-xs-3 main-link-3">
+      <a href="location.php">
+        <span>Location</span>      
+      </a>
+    </div>
+    <div class="col-xs-3 main-link-4">
+      <a href="contact.php">
+        <span>Contact</span>
+      </a>
+    </div>
+    
       </div><!-- End Main -->
   </div><!-- end Column -->
     	

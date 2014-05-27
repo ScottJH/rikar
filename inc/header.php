@@ -15,13 +15,19 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body class="<?php echo $pageclass; ?>">
-  	<div class="container">
-      
+    
+    <!--Google Web Fonts-->  
+
+    <link href='http://fonts.googleapis.com/css?family=Cinzel:400,900,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body class="<?php echo $pageclass; ?>">
+ 	<div class="container-fluid">
+    <div class="row">  
+
       <div class="col-sm-4">
         
-        <a href="index.php" class="logo"><img src="img/logo.png" alt="" class="img-responsive"></a> 
+        <a href="index.php" class="brand"><img src="img/logo.png" alt="" class="img-responsive"></a> 
       
       <div class="sidebar-nav">
         <div class="navbar navbar-default" role="navigation">
@@ -37,17 +43,17 @@
           <div class="navbar-collapse collapse sidebar-navbar-collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.php">Home</a></li>
-              <li><a href="about.php">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Location</a></li>
-              <li><a href="#">Blog</a></li>
+              <li><a href="about.php">About Us</a></li>
+              <li><a href="products.php">Products and Services</a></li>
+              <li><a href="location.php">Location</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
-
+    
     <div class="col-sm-8">
       <div class="jumbotron" id="banner">
-        <h1 class="pagetitle text-right"><?php echo $pagetitle; ?></h1>
+        <h1 class="pagetitle text-right metal-gradient"><?php echo $pagetitle; ?></h1>
       </div>

@@ -1,9 +1,10 @@
-</div><!-- End container -->  
+</div>
 
+</div><!-- End container -->  
 
 <div id="footer">
 	<div class="container" role="main">
-	   <span>7559 Ne 33rd Drive | Portland OR, 97211 | Multnomah County</span>   
+	   <span>7559 Ne 33rd Drive | Portland OR, 97211 | Multnomah County</span>
   </div>
 </div>
 
@@ -12,5 +13,6 @@
     <!-- Include all compiled qplugins (below), or include individual files as needed -->
     <script src="assets/javascripts/bootstrap.js"></script>
     <script src="assets/javascripts/bootstrap/collapse.js"></script>
+
   </body>
 </html>	
