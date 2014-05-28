@@ -22,7 +22,7 @@
 
 </head>
 <body class="<?php echo $pageclass; ?>">
- 	<div class="container-fluid">
+ 	<div class="container-fluid" id="mainWrap">
     <div class="row">  
 
       <div class="col-sm-4">

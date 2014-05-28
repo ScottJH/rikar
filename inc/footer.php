@@ -4,7 +4,7 @@
 
 <div id="footer">
 	<div class="container" role="main">
-	   <span>7559 Ne 33rd Drive | Portland OR, 97211 | Multnomah County</span>
+	   <span>7559 NE 33rd Drive | Portland OR, 97211 | Multnomah County</span>
   </div>
 </div>
 

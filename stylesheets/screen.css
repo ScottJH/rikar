@@ -6282,7 +6282,7 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   background-color: #454547;
-  font-size: 1.5em; }
+  font-size: 1.25em; }
 
 /* line 27, ../sass/screen.scss */
 .container-fluid {
@@ -6305,23 +6305,24 @@ body {
 .navbar {
   border-radius: 0;
   border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px; }
+  border-bottom-left-radius: 20px;
+  font-size: 1.5em; }
 
-/* line 51, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .navbar-default .navbar-nav > .active > a {
   background-color: #3198d4;
   color: white; }
 
-/* line 56, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .container .jumbotron {
   border-radius: 0; }
 
-/* line 60, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 #banner {
-  min-height: 450px;
+  min-height: 350px;
   position: relative;
   margin: 0 -15px 0; }
-  /* line 65, ../sass/screen.scss */
+  /* line 66, ../sass/screen.scss */
   #banner h1.pagetitle {
     position: absolute;
     bottom: 0;
@@ -6352,7 +6353,7 @@ body {
     text-transform: uppercase;
     font-weight: 700; }
 
-/* line 98, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .metal-gradient {
   background: whitesmoke;
   /* Old browsers */
@@ -6371,38 +6372,38 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#454547', endColorstr='#454547',GradientType=1 );
   /* IE6-9 */ }
 
-/* line 111, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 body.home #banner {
   background: url("../img/main.jpg") no-repeat;
   background-size: cover; }
 
-/* line 112, ../sass/screen.scss */
-body.about #banner {
-  background: url("../img/main-link-1.jpg") no-repeat;
-  background-size: cover; }
-
 /* line 113, ../sass/screen.scss */
-body.products #banner {
-  background: url("../img/main-link-2.jpg") no-repeat;
+body.about #banner {
+  background: url("../img/main-link-1.jpg") center center no-repeat;
   background-size: cover; }
 
 /* line 114, ../sass/screen.scss */
+body.products #banner {
+  background: url("../img/main-link-2.jpg") center center no-repeat;
+  background-size: cover; }
+
+/* line 115, ../sass/screen.scss */
 body.location #banner {
   background: url("../img/main-link-3.jpg") no-repeat;
   background-size: cover; }
 
-/* line 115, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 body.contact #banner {
   background: url("../img/main-link-4.jpg") no-repeat;
   background-size: cover; }
 
-/* line 117, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 h1, h2, h3 {
   font-family: "Cinzel", serif;
   text-transform: uppercas;
   font-weight: 900; }
 
-/* line 123, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 a.brand {
   margin-top: 15px;
   display: block;
@@ -6411,7 +6412,7 @@ a.brand {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px; }
 
-/* line 131, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 div.row[role=main] {
   background-color: #f5f5f5;
   padding-top: 15px;
@@ -6421,22 +6422,22 @@ div.row[role=main] {
   padding-bottom: 15px; }
 
 /* home nav */
-/* line 141, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 #home-nav {
   padding: 0; }
 
-/* line 145, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #home-nav div {
   padding: 0; }
 
-/* line 149, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #home-nav div a {
   color: transparent;
   display: block;
   height: 250px;
   position: relative; }
 
-/* line 156, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 #home-nav div a span {
   position: absolute;
   text-align: center;
@@ -6445,64 +6446,60 @@ div.row[role=main] {
   width: 100%;
   font-size: 0.95em; }
 
-/* line 164, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #home-nav div a:hover span {
   border-top: thick solid #3198d4;
   border-bottom: thick solid #3198d4; }
 
-/* line 169, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 div.main-link-1 {
-  background: url("../img/main-link-1.jpg") no-repeat;
+  background: url("../img/main-link-1.jpg") -80px -80px no-repeat;
   border-bottom-left-radius: 20px; }
 
-/* line 170, ../sass/screen.scss */
-div.main-link-2 {
-  background: url("../img/main-link-2.jpg") no-repeat; }
-
 /* line 171, ../sass/screen.scss */
+div.main-link-2 {
+  background: url("../img/main-link-2.jpg") -90px -50px no-repeat; }
+
+/* line 172, ../sass/screen.scss */
 div.main-link-3 {
   background: url("../img/main-link-3.jpg") no-repeat; }
 
-/* line 172, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 div.main-link-4 {
   background: url("../img/main-link-4.jpg") no-repeat;
   border-bottom-right-radius: 20px; }
 
-/* line 174, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #home-nav div a:hover {
   color: white;
   background-color: rgba(69, 69, 71, 0.75); }
 
-/* line 179, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .bg-primary {
   background-color: #3198d4; }
 
-@media (min-width: 991px) {
-  /* line 182, ../sass/screen.scss */
-  body.about #banner {
-    background-position: 0 -200px; } }
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
-  /* line 190, ../sass/screen.scss */
+  /* line 185, ../sass/screen.scss */
   div.row[role=main] {
     font-size: 1.25em; }
 
-  /* line 192, ../sass/screen.scss */
+  /* line 187, ../sass/screen.scss */
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none; }
 
-  /* line 196, ../sass/screen.scss */
+  /* line 191, ../sass/screen.scss */
   .sidebar-nav .navbar ul {
     float: none;
     display: block; }
 
-  /* line 200, ../sass/screen.scss */
+  /* line 195, ../sass/screen.scss */
   .sidebar-nav .navbar li {
     float: none;
     display: block; }
 
-  /* line 204, ../sass/screen.scss */
+  /* line 199, ../sass/screen.scss */
   .sidebar-nav .navbar li a {
     padding-top: 12px;
     padding-bottom: 12px; } }

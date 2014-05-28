@@ -30,7 +30,7 @@
                 </a>
               </strong>
             </div>
-            <div id="i5north" class="panel-collapse collapse">
+            <div id="i5north" class="panel-collapse in collapse">
               <div class="panel-body">
                 <ul>
                   <li>Take exit 305A from I&#8211;5 N</li>
@@ -67,6 +67,26 @@
                 </div>
               </div>
            <div class="panel panel-default">
+              <div class="panel-heading">
+                <strong class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#i205north">
+                    From I&#8211;205 North
+                  </a>
+                </strong>
+              </div>
+              <div id="i205north" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul>
+                  <li>Take NE Columbia Blvd to NE 33rd Dr (<em>3.5 mi</em>)</li>
+                  <li>Turn right onto NE Columbia Pkwy N Blvd (<em>0.3 mi</em>)</li>
+                  <li>Slight left onto NE Columbia Blvd (<em>2.7 mi</em>)</li>
+                  <li>Slight right to merge onto NE 33rd Dr<br/>
+                   <strong>Destination will be on the left</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>   
+           <div class="panel panel-default">
             <div class="panel-heading">
               <strong class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#i205south">
@@ -87,26 +107,6 @@
                 </div>
               </div>
             </div>
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <strong class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#i205north">
-                    From I&#8211;205 North
-                  </a>
-                </strong>
-              </div>
-              <div id="i205north" class="panel-collapse collapse">
-              <div class="panel-body">
-                <ul>
-                  <li>Take NE Columbia Blvd to NE 33rd Dr (<em>3.5 mi</em>)</li>
-                  <li>Turn right onto NE Columbia Pkwy N Blvd (<em>0.3 mi</em>)</li>
-                  <li>Slight left onto NE Columbia Blvd (<em>2.7 mi</em>)</li>
-                  <li>Slight right to merge onto NE 33rd Dr<br/>
-                   <strong>Destination will be on the left</strong></li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div><!-- END accordion -->  
       </div>         
 
