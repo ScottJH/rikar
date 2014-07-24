@@ -10,8 +10,7 @@
     <div class="row container-fluid" role="main">  
      
 		  <div class="col-md-7">
-          <img src="img/building-temp.jpg" class="img-responsive img-rounded" alt="Building">
-          <hr>
+          <img src="img/pioneer_building_sketch.jpg" class="img-responsive img-rounded" alt="Building">
       </div>
 
       <div class="col-md-5">

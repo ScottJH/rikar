@@ -2,6 +2,18 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
+    "\/sass\/screen.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/screen.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/screen.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/assets\/javascripts\/bootstrap\/button.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -24,15 +36,6 @@
       "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/transition-ck.js",
       "fileType" : 64
     },
-    "\/inc\/header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/stylesheets\/bootstrap\/bootstrap.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -42,15 +45,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/sass\/screen.scss" : {
+    "\/sass\/bootstrap\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/screen.scss",
+      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_mixins.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/screen.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -101,6 +104,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/javascripts\/bootstrap\/scrollspy.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/scrollspy-ck.js",
+      "fileType" : 64
+    },
     "\/sass\/bootstrap\/_panels.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -112,17 +126,6 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_panels.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/assets\/javascripts\/bootstrap\/scrollspy.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/scrollspy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/scrollspy-ck.js",
-      "fileType" : 64
     },
     "\/sass\/bootstrap\/_wells.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -136,6 +139,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/main-link-2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/main-link-2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/main-link-2.jpg",
+      "initialSize" : 24838,
+      "fileType" : 4096
+    },
     "\/sass\/bootstrap\/_button-groups.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -147,17 +161,6 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_button-groups.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/main-link-2.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/main-link-2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/main-link-2.jpg",
-      "initialSize" : 24838,
-      "fileType" : 4096
     },
     "\/sass\/bootstrap\/_modals.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -204,15 +207,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/sass\/bootstrap\/_theme.scss" : {
+    "\/sass\/bootstrap\/_labels.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_theme.scss",
+      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_labels.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_theme.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_labels.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -228,15 +231,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/bootstrap\/_labels.scss" : {
+    "\/sass\/bootstrap\/_theme.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_labels.scss",
+      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_theme.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_labels.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_theme.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -264,17 +267,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/javascripts\/bootstrap.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap-ck.js",
-      "fileType" : 64
-    },
     "\/sass\/bootstrap\/_dropdowns.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -286,6 +278,17 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_dropdowns.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/javascripts\/bootstrap.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap-ck.js",
+      "fileType" : 64
     },
     "\/sass\/bootstrap\/_glyphicons.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -354,30 +357,6 @@
       "initialSize" : 48167,
       "fileType" : 4096
     },
-    "\/sass\/bootstrap\/_carousel.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_carousel.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_carousel.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/bootstrap\/_component-animations.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_component-animations.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_component-animations.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/bootstrap\/_scaffolding.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -390,15 +369,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/bootstrap\/_input-groups.scss" : {
+    "\/sass\/bootstrap\/_popovers.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_input-groups.scss",
+      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_popovers.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_input-groups.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_popovers.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -411,15 +390,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/bootstrap\/_grid.scss" : {
+    "\/sass\/bootstrap\/_input-groups.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_grid.scss",
+      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_input-groups.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_grid.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_input-groups.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -435,6 +414,30 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/sass\/bootstrap\/_carousel.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_carousel.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_carousel.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/bootstrap\/_grid.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_grid.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_grid.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/sass\/bootstrap\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -447,17 +450,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/bootstrap\/_popovers.scss" : {
+    "\/assets\/javascripts\/bootstrap\/tab.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_popovers.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_popovers.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/tab.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/tab-ck.js",
+      "fileType" : 64
     },
     "\/img\/logo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -482,16 +484,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/javascripts\/bootstrap\/tab.js" : {
+    "\/sass\/bootstrap\/_component-animations.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/tab.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/tab-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_component-animations.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_component-animations.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/javascripts\/bootstrap\/popover.js" : {
       "ignoreWasSetByUser" : 0,
@@ -524,6 +527,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/img\/main.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/main.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/main.jpg",
+      "initialSize" : 37051,
+      "fileType" : 4096
+    },
     "\/sass\/bootstrap\/_thumbnails.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -536,28 +550,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/main.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/main.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/main.jpg",
-      "initialSize" : 37051,
-      "fileType" : 4096
-    },
-    "\/img\/building-temp.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/building-temp.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/building-temp.jpg",
-      "initialSize" : 41063,
-      "fileType" : 4096
-    },
     "\/sass\/bootstrap\/_tables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -567,18 +559,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/stylesheets\/_tables.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/bootstrap\/_jumbotron.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_jumbotron.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_jumbotron.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -613,6 +593,18 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/affix-ck.js",
       "fileType" : 64
+    },
+    "\/sass\/bootstrap\/_jumbotron.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_jumbotron.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/_jumbotron.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/logo_test.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -727,14 +719,16 @@
       "initialSize" : 415291,
       "fileType" : 8192
     },
-    "\/inc\/footer.php" : {
+    "\/img\/pioneer_building_sketch.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/footer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/pioneer_building_sketch.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/pioneer_building_sketch.jpg",
+      "initialSize" : 77897,
+      "fileType" : 4096
     },
     "\/sass\/bootstrap\/_alerts.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -747,6 +741,15 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_alerts.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/inc\/footer.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/footer.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/stylesheets\/screen.css" : {
       "ignoreWasSetByUser" : 0,
@@ -792,15 +795,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/javascripts\/bootstrap\/tooltip.js" : {
+    "\/assets\/javascripts\/bootstrap\/offcanvas.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/tooltip.js",
+      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/offcanvas.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/tooltip-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/offcanvas-ck.js",
       "fileType" : 64
     },
     "\/img\/main-link-1.jpg" : {
@@ -814,15 +817,15 @@
       "initialSize" : 38767,
       "fileType" : 4096
     },
-    "\/assets\/javascripts\/bootstrap\/offcanvas.js" : {
+    "\/assets\/javascripts\/bootstrap\/tooltip.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/offcanvas.js",
+      "inputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/tooltip.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/offcanvas-ck.js",
+      "outputAbbreviatedPath" : "\/assets\/javascripts\/bootstrap\/tooltip-ck.js",
       "fileType" : 64
     },
     "\/sass\/bootstrap\/_close.scss" : {
@@ -867,17 +870,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sass\/bootstrap\/_mixins.scss" : {
+    "\/inc\/header.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bootstrap\/_mixins.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_mixins.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/inc\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/about.php" : {
       "ignoreWasSetByUser" : 0,
